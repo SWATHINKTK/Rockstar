@@ -1,0 +1,505 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:HelveticaNowText ;
+    src: url("/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf");
+}
+@font-face {
+    font-family: Helvetica-neue;
+    src: url(fonts/Helvetica-Neue-Font/Helvetica\ Neue\ Medium\ Extended/);
+}
+@font-face {
+    font-family: Helvetica Now Display Bold;
+    src: url("https://db.onlinewebfonts.com/t/04e6981992c0e2e7642af2074ebe3901.eot");
+    src: url("https://db.onlinewebfonts.com/t/04e6981992c0e2e7642af2074ebe3901.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/04e6981992c0e2e7642af2074ebe3901.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/04e6981992c0e2e7642af2074ebe3901.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/04e6981992c0e2e7642af2074ebe3901.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/04e6981992c0e2e7642af2074ebe3901.svg#Helvetica Now Display Bold")format("svg");
+}
+@font-face {
+    font-family:Helvetica-bold ;
+    src: url("fonts/HelveticaNowDisplay-Medium/HelveticaNowDisplay-Medium.ttf");
+}
+body{
+    background-color:#0b0b0b;
+}
+.head-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #000;
+    border-bottom: 1.5px solid;
+    border-color: #282828;
+}
+.head-item1{
+    width:26px;
+    height: 36px;
+    margin-left: 79px;
+    margin-top: 6px;
+    justify-content: space-between;
+}
+.head-item2{
+    width:26px;
+    height: 36px;
+    margin-right: 19.5px;
+}
+.head-item3{
+    width:26px;
+    height: 36px;
+    margin-right:109px;
+}
+.head-icon{
+    width:74px;
+    height:36px;
+} 
+.menu-button{
+    width: 25px;
+    height: 4px;
+    background-color: #ffffff;
+    margin-top: 4px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+
+    
+} 
+.home-body{
+    display: grid;
+    width: 100%;
+    grid-template-columns:3fr 1.29fr;
+    grid-template-rows:162px 180px;
+    height:79.6vh;
+    grid-template-areas: "image txt"
+                         "image btn"
+                         "image slide-btn";
+    background-color:#000;
+    color: #fff;
+}
+.body-img {
+    grid-area: 1/1/4/2;
+    overflow: hidden;
+    /* background-image: url(image/home.avif); */
+    background-repeat: no-repeat;
+    background-size:cover; 
+    height: 100%;
+}
+.txt{
+
+    grid-area: txt;
+    padding: 80px 40px;
+}
+
+.home-text{
+    font-family: Helvetica Now Display Bold;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -1px;
+}
+.sub-head{
+    font-family:Helvetica Now Display Bold;
+    font-weight: 700;
+    font-size: 15px;
+    line-height-step: 22px;
+    margin-bottom: 10px;
+}
+.image{
+    grid-area: image;
+    
+}
+.btn{
+    grid-area: btn;
+    padding: 168px 40px;
+}
+.s-btn{
+    grid-area: slide-btn;
+    justify-content:center;
+}
+.s-btn-inside
+{
+    display: flex;
+    justify-content:center;
+}
+.s-btn-inside a{
+    position: relative;
+    top: 105px;
+    margin-left: 9px;
+    width: 75px;
+    height: 4px;
+    border-radius: 6px;
+    background-color:rgba(255,255,255, 0.3);
+    border: none;
+}
+.s-btn-inside a:active{
+    background-color: #fff;
+}
+.s-btn-inside a:link
+{
+    background-color: #fff;
+}
+.home-body img{
+    width: 100%;
+    height: 79.6vh;
+    overflow: hidden;
+}
+.btn button{
+    align-content: top;
+    width: 245px;
+    height: 62px;
+    background-color: unset;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.watch-btn{
+    font-family: Helvetica Now Display Bold;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.btn button:hover{
+    background-color:#fcaf17;
+    border-color: #fcaf17;
+    color: #0e0d0d;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.news-txt{
+    padding: 0px 80px 19px;
+    color:#fff;
+    margin-top: 100px;
+    font-family: Helvetica Now Display Bold;
+}
+.newswire{
+    padding: 0px 80px  80px;
+    height:200vh;
+    max-width: 1181px;
+    display: grid;
+    grid-template-columns: 353px 353px 353px;
+    grid-template-rows:622px 622px 60px;
+    grid-gap: 40px;
+    color: #fff;
+    grid-template-areas: "newswire-1 newswire2 newswire3 "
+                         "newswire4 newswire5 newswire6 ";
+}
+.newswire-h2{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Helvetica Now Display Bold;
+    line-height: 32.5px;
+    letter-spacing: -0.5px;
+    margin-top: 20px;
+    
+}
+.newswire-item{
+    border: 2px solid #282828;
+    display: grid;
+    grid-template-rows: 353px 221px;
+    border-radius: 9px;
+}
+.news-button{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+}
+.view-btn hr{
+    height: 5px;
+    width: 80px;
+    background-color: #fcaf17;
+    position: relative;
+    top: -1px;
+    left: 8px;
+    border: none;
+    border-radius: 15px;
+    
+} 
+.news-button button{
+    width: 95px;
+    height: 32px;
+    border: none;
+    font-size: 17px;
+    border-radius: 6px;
+    padding-top: 3px;
+    font-family:Helvetica Now Display Bold;
+    color: #fff;
+    background-color: transparent;
+    font-weight: lighter;
+}
+.news-button button:hover{
+    width:98px ;
+    background-color: #fcaf17;
+    color: #000;
+    transition: 350ms;
+}
+.item2{
+    padding: 35px 35px;
+    font-size: 15px;
+    font-family: Helvetica Now Display Bold;
+    font-weight: 600;
+}
+#btn-txt{
+    color: #fff;
+}
+#btn-line{
+    padding-left: 3px;
+    padding-right: 3px;
+    height: 1px;
+    background-color: #fcaf17;
+}
+time{
+    padding-left: 10px;
+    color: aqua;
+    font-size: 11px;
+    color:inherit;
+}
+/* news wire images */
+.img1{ 
+    overflow: hidden;
+    background-image: url("/image/new1.png") ; 
+    background-size:cover; 
+    background-repeat: no-repeat;
+    border-radius: 9px 9px 0px 0px;
+
+}
+.img-2{
+    overflow: hidden;
+    background-image: url(image/new2.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    border-radius: 9px 9px 0px 0px;
+    
+}
+.img-3{
+    overflow: hidden;
+    background-image: url("/image/news1.1.jpg") ; 
+    background-size:cover; 
+    background-repeat: no-repeat;
+    border-radius: 9px 9px 0px 0px;
+}
+.img-4{
+    overflow: hidden;
+    background-image: url(image/news2.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    border-radius: 9px 9px 0px 0px;
+}
+.img-5{
+    overflow: hidden;
+    background-image: url(image/news3.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    border-radius: 9px 9px 0px 0px;
+}
+.img-6{
+    overflow: hidden;
+    background-image: url(image/news4.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    border-radius: 9px 9px 0px 0px;
+}
+
+
+.featured-game{
+    padding: 80px 80px;
+    display: grid;
+    grid-template-columns: repeat(4,275px);
+    grid-template-rows: 50px 339px 60px;
+    grid-column-gap: 20px;
+}
+.f-game-head{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    color:#fff;
+    font-family: Helvetica Now Display Bold;
+}
+.f-game-btn{
+    grid-area: 3/2/4/4;
+    display: flex;
+    justify-content: center;
+}
+.view-btn2 hr{
+    height: 5px;
+    width: 80px;
+    background-color: #fcaf17;
+    position: relative;
+    top: -1px;
+    left: 8px;
+    border: none;
+    border-radius: 15px;
+
+}
+.view-btn2{
+    margin-top: 20px;
+    width: 95px;
+    height: 32px;
+    border: none;
+    font-size: 17px;
+    border-radius: 6px;
+    padding-top: 3px;
+    font-family:Helvetica Now Display Bold;
+    color: #fff;
+    background-color:transparent;
+    font-weight: lighter;
+}
+.view-btn2:hover{
+    width:98px ;
+    background-color: #fcaf17;
+    color: #000;
+    transition: 350ms;
+}
+.game1{
+    overflow: hidden;
+    background-image: url(/image/V.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+    border-radius: 9px;
+}
+.game2{
+    overflow: hidden;
+    background-image: url(/image/v2.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+    border-radius: 9px;
+}
+.game3{
+    overflow: hidden;
+    background-image: url(/image/v3.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+    border-radius: 9px;
+}
+.game4{
+    overflow: hidden;
+    background-image: url(/image/v4.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+    border-radius: 9px;
+}
+.footer{
+    padding: 80px;
+    display: grid;
+    height: 449px;
+    background-color: #000;
+    color: #fff;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 100px 45px;
+    grid-template-areas: "left1 right1"
+                         "left2 right2"
+                         "left3 right3";
+    grid-row-gap: 60px;
+    font-family: Helvetica Now Display Bold;
+
+}
+.left1{
+    grid-area: left1;
+}
+.left2{
+    grid-area: left2;
+}
+.left3{
+    grid-area: left3;
+    display: flex;
+    justify-content: left;
+}
+.right1{
+    grid-area: right1;
+    display: flex;
+    justify-content:right ;
+}
+.right1-inside{
+    width: 130px;
+    height: 43px;
+    font-size: 15px;
+    font-family: Helvetica Now Display Bold;
+    display: flex;
+    justify-content: center;
+}
+.right1-inside select{
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: Helvetica Now Display Bold;
+    outline-style: none;
+}
+.right1-inside svg{
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+.right1-inside:active{
+    border: 2px solid #fff;
+}
+.lang:active{
+    border: none;
+}
+.right2{
+    grid-area: right2;
+    display: flex;
+    justify-content: right;
+}
+.right2 svg{
+    margin-left: 44px;
+    width: 20px;
+    height: 20px;
+}
+.right2 sv:hover{
+    color: #fcaf17;
+}
+.right3{
+    grid-area: right3;
+    display: flex;
+    justify-content: right;
+    font-weight:550;
+    font-size: 16px;
+    
+}
+.left1 a{
+    padding-right: 15px;
+    font-family: Helvetica Now Display Bold;
+    font-size: 18px;
+}
+.left1 svg{
+    width: 14px;
+    height: 14px;
+    margin-left: -12px;
+    margin-bottom: 10px;
+}
+.left2 a{
+    padding-right: 15px;
+    font-size: 10px;
+    color: inherit;
+    color: rgba(255,255,255, 0.2);
+}
+.left3 p{
+    padding-right: 20px;
+    font-weight:550;
+    font-size: 16px;
+    display: flex;
+    
+}
+.city{
+    padding-left: 300px;
+}
+.left2 a:hover{
+    color: #fcaf17;
+}
+.footer a:hover{
+    color: #fcaf17;
+}

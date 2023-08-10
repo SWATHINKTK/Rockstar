@@ -1,0 +1,112 @@
+<div>
+            <header class="head-section" >
+                <div class="head-item1"><a title="Open Menu" href="#"><hr class="menu-button"><hr class="menu-button"><hr class="menu-button"></a></div>
+                <div class="head-item2"><a title="home"href="#" target="_self"><img src="\icons\header.svg" class="head-icon"/></a></div>
+                <div class="head-item3"><a title="" href="#"><img src="\icons\contact.svg"class="head-icon"/></a></div>
+            </header>
+        </div>
+        <div class="body-section">
+            <div class="advertise-section">
+                <div class="advertise-section-1">
+                    <a title="The Mammoth Avenger" href="https://www.rockstargames.com/videos/12407" target="_self" ><img src="/image/home.avif" id="home-image"></a>
+                </div>
+                <div class="advertise-section-2">
+                    <a title="The Mammoth Avenger" href="https://www.rockstargames.com/videos/12407" target="_self" >
+                        <h3 id="ad-head2">Grand Theft Auto Online</h3>
+                        <h1 id="ad-head1">The Mammoth Avenger</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <footer></footer>
+        </div>
+
+
+
+
+
+        body{
+    margin: 0;
+}
+#ad-head1{
+    color: #ffffff;
+    font-family: 'REM', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Rubik', sans-serif;
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 35px;
+}
+#ad-head2{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: HelveticaNowText;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    background-color: #0b0b0b;
+}
+.head-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #000;
+    border-bottom: 1.5px solid;
+    border-color: #282828;
+}
+.head-item1{
+    width:26px;
+    height: 36px;
+    margin-left: 79px;
+    margin-top: 22px;
+    justify-content: space-between;
+}
+.head-item2{
+    width:26px;
+    height: 36px;
+    margin-right: 19.5px;
+}
+.head-item3{
+    width:26px;
+    height: 36px;
+    margin-right:109px;
+}
+.head-icon{
+    width:74px;
+    height:36px;
+}
+.body-section{
+    height: 999px;
+}
+.menu-button{
+    width: 22px;
+    color: #ffffff;
+    border-radius: 140px;
+    margin-top: -2px;
+}
+.advertise-section{
+    display: flex;
+    flex-direction: row;
+    height: 530px;
+    background-color: blue;
+}
+.advertise-section-1{
+    flex:1;
+    background-color: aqua;
+}
+.advertise-section-2{
+    width:405px;
+    background-color: #000;
+}
+#home-image{
+    width: 946px;
+    height: 530px;
+}
+
