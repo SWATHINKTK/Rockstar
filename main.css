@@ -266,7 +266,7 @@ time{
 /* news wire images */
 .img1{ 
     overflow: hidden;
-    background-image: url(/image/new1.png) ; 
+    background-image: url("image/new1.png") ; 
     background-size:cover; 
     background-repeat: no-repeat;
     border-radius: 9px 9px 0px 0px;
@@ -274,7 +274,7 @@ time{
 }
 .img-2{
     overflow: hidden;
-    background-image: url(image/new2.jpg);
+    background-image: url("image/new2.jpg");
     background-size:cover; 
     background-repeat: no-repeat;
     border-radius: 9px 9px 0px 0px;
@@ -282,28 +282,28 @@ time{
 }
 .img-3{
     overflow: hidden;
-    background-image: url(/image/news1.1.jpg) ; 
+    background-image: url("image/news1.1.jpg") ; 
     background-size:cover; 
     background-repeat: no-repeat;
     border-radius: 9px 9px 0px 0px;
 }
 .img-4{
     overflow: hidden;
-    background-image: url(image/news2.jpg);
+    background-image: url("image/news2.jpg");
     background-size:cover; 
     background-repeat: no-repeat;
     border-radius: 9px 9px 0px 0px;
 }
 .img-5{
     overflow: hidden;
-    background-image: url(image/news3.jpg);
+    background-image: url("image/news3.jpg");
     background-size:cover; 
     background-repeat: no-repeat;
     border-radius: 9px 9px 0px 0px;
 }
 .img-6{
     overflow: hidden;
-    background-image: url(image/news4.jpg);
+    background-image: url("image/news4.jpg");
     background-size:cover; 
     background-repeat: no-repeat;
     border-radius: 9px 9px 0px 0px;
@@ -360,7 +360,7 @@ time{
 }
 .game1{
     overflow: hidden;
-    background-image: url(/image/V.jpg);
+    background-image: url("image/V.jpg");
     background-size:cover; 
     background-repeat: no-repeat;
     height: 100%;
@@ -368,7 +368,7 @@ time{
 }
 .game2{
     overflow: hidden;
-    background-image: url(/image/v2.jpg);
+    background-image: url("image/v2.jpg");
     background-size:cover; 
     background-repeat: no-repeat;
     height: 100%;
@@ -376,7 +376,7 @@ time{
 }
 .game3{
     overflow: hidden;
-    background-image: url(/image/v3.jpg);
+    background-image: url("image/v3.jpg");
     background-size:cover; 
     background-repeat: no-repeat;
     height: 100%;
@@ -384,7 +384,7 @@ time{
 }
 .game4{
     overflow: hidden;
-    background-image: url(/image/v4.jpg);
+    background-image: url("image/v4.jpg");
     background-size:cover; 
     background-repeat: no-repeat;
     height: 100%;
