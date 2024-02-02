@@ -1,5 +1,5 @@
-# Rockstar Games Website Clone
-# overview
+# Overview
+## Rockstar Games Website Clone
 A project to clone the design of the Rockstar Games website using HTML and CSS.
 
 ## Technologies Used
